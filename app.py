@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load Model
-model = load_model('deployment_11102020')
+model = load_model('deployment_24062021')
 
 
 def run():
