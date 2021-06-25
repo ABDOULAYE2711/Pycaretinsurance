@@ -10,11 +10,12 @@ model = load_model('deployment_24062021')
 def run():
 
     from PIL import Image
-    image_hospital = Image.open('hospital.jpg')
+    image_badji = Image.open('badji.jpg')
 
-    st.sidebar.info('This app is created using PyCaret and Strealit')
-    st.sidebar.success('https://youtube.com/KunaalNaik')
-    st.sidebar.image(image_hospital)
+    st.sidebar.info('This app is created using PyCaret and Streamlit')
+    st.sidebar.info('Abdoulaye Badji')
+    st.sidebar.success('https://www.youtube.com/channel/UCZ_Sor5J6415zV8k3hNlk6Q')
+    st.sidebar.image(image_badji)
 
     st.title('Insurance Application')
 
